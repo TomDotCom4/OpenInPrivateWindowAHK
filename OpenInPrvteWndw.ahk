@@ -6,7 +6,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 >^LButton::
 
 Send, {RButton}
-
 Sleep 100
-
-Send, {Down 3}{Enter}
+Send, P
